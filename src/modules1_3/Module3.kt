@@ -1,8 +1,10 @@
+package modules1_3
+
 fun main(args: Array<String>) {
-//    module3_task12()
-//    module3_task13()
-//    module3_task14()
-//    module3_task15()
+//    modules1_3.module3_task12()
+//    modules1_3.module3_task13()
+//    modules1_3.module3_task14()
+//    modules1_3.module3_task15()
     module3_task16()
 }
 
@@ -77,7 +79,7 @@ class Employee {
     }
 
     override fun toString(): String {
-        return "Employee(name=$name, post=$post, age=$age, status=$status)"
+        return "modules1_3.Employee(name=$name, post=$post, age=$age, status=$status)"
     }
 
 }

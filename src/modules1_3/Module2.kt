@@ -1,8 +1,10 @@
+package modules1_3
+
 fun main(args: Array<String>) {
     module2_task8()
-//    module2_task9()
-//    module2_task10()
-//    module2_task11()
+//    modules1_3.module2_task9()
+//    modules1_3.module2_task10()
+//    modules1_3.module2_task11()
 }
 
 fun module2_task8() {
