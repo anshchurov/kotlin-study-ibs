@@ -8,6 +8,6 @@ fun main(args: Array<String>){
 
     val boeing: Boeing747= Boeing747(467, 823746, 14310.0, 193.3)
 
-    println("Расход на 100 км для самолёта ${boeing.number} = ${boeing.consumption} тонны топлива")
+    println("В самолете ${boeing.number} ${boeing.passengers} пассажирских мест")
 
 }
