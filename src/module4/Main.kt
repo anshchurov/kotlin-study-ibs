@@ -1,9 +1,12 @@
 package module4
 
-fun main(args: Array<String>){
+fun main(args: Array<String>) {
 
-    val boeing: Boeing747= Boeing747(467, 823747, 14310.0, 193.3)
-
-    println("В самолете ${boeing.getNumber()} ${boeing.passengers} пассажирских мест")
-    boeing.print()
+    var car1 = auto("BMW", "black", "o000oo")
+    var car2 = auto("Ford", "red", "a111aa")
+    println(car1)
+    println(car2)
 }
+
+
+data class auto(val mark: String, val color: String, val number: String)
